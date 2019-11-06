@@ -1,227 +1,221 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+<!--    <link rel="icon" href="../../favicon.ico">-->
 
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+    <title>动漫客栈，向经典致敬-ANIMATION GALLERY</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="./css/carousel.css" rel="stylesheet" type = "text/css">
 </head>
-
+<!-- NAVBAR
+================================================== -->
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
+<div class="navbar-wrapper">
+    <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">动漫客栈</a>
+            </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li><a href="#about">动漫</a></li>
+                        <li><a href="#contact">排行榜</a></li>
+                        <li class="contact">
+                            <a href="#" class="dropdown-toggle"  data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">关于我们 <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">网站</a></li>
+                                <li><a href="#">参照Bootstrap</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="dropdown-header">欢迎鼓励支持</li>
+                                <li><a href="#">微博账号</a></li>
+                                <li><a href="#">微信公众号</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
+</div>
+
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+<!--    <ol class="carousel-indicators">-->
+<!--        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+<!--        <li data-target="#myCarousel" data-slide-to="1" class=""></li>-->
+<!--        <li data-target="#myCarousel" data-slide-to="2" class=""></li>-->
+<!--    </ol>-->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="first-slide" src="./img/刺客伍六七.jpg" alt="First slide">
+        </div>
+        <div class="item">
+            <img class="second-slide" src="./img/死亡笔记.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+            <img class="third-slide" src="./img/鬼灭之刃.jpg" alt="Third slide">
+        </div>
     </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-我的第一篇文章" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/06/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="article-date">
-  <time datetime="2019-11-06T15:21:11.000Z" itemprop="datePublished">2019-11-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/06/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">我的第一篇文章</a>
-    </h1>
-  
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
+
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="img-circle" src="./img/刺客伍六七-伍六七头像.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>伍六七</h2>
+            <p>凭借以气御剪绝技，在鸡大保传销大师影响下，成功成为小鸡岛上大保健发廊最强发型师，兼刺客。凭借鸡大保发明的"变身鸡霸蛋"，操一口港普，以诙谐的姿态开始走进每个被刺杀人物的故事里...</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle" src="./img/刺客伍六七-鸡大保头像.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>鸡大保</h2>
+            <p>虽是蓝羽鸡，但人称"鸡中霸王"，简称"鸡霸"，常年墨镜、雪茄配合演出，现任大保健发廊店主，以及伍六七刺客经纪人。姜广涛神似曾志伟的配音，将拜金、好色、痞气演绎的淋漓尽致，并成功传销伍六七踏上刺客之路...</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="img-circle" src="./img/刺客伍六七-梅花十三头像.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>梅花十三</h2>
+            <p>玄武国排名37女刺客,性格冷酷无情、杀伐果断，还十分傲娇，常年以面具示人.擅长双刀流和梅花镖；自从被伍六七破坏面具并被强吻后，开始疯狂追杀伍六七...</p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">生活中是没有扁平的人的<br><span class="text-muted">大家都是复杂的，因为复杂，所以真实</span></h2>
+            <p class="lead">《刺客伍六七》在这方面耗费的笔墨之多在国产动画中也是相当罕见的<br>
+                第一集，陈嘉杰和李三斤是青梅竹马，但哪来的前女友雇伍六七去剪新娘的头发呢？<br>
+                真相是 这个所谓的“前女友”就是梅花十三，他雇伍六七去剪头发，就是为了制造混乱方便刺杀陈嘉杰，后面斯坦国王子也证实了这一点，梅花十三的战斗智慧从第一集就展露无遗。<br>
+                第六集，少女可乐的心愿，都和他治病期间的遭遇息息相关<br>
+                第七集，伍六七唯一成功拿到报酬的任务，却用报酬赎回了陈伯的裤子，被鸡大保揍了一顿<br>
+                第八集，保镖大春说好的情比金坚七天锁，却在小岛危机时提前开锁，险些英勇就义，在逃难的小船上用自己所有的积蓄，让伍六七去刺杀斯坦国王子<br>
+                小人物也有自己的梦想，小人物也有自己的坚持，<br>
+                小人物也可以卧虎藏龙，有自己的高光时刻。<br>
+                但，那又如何呢？<br>
+                汪疯和小咪咪依然生殖隔离<br>
+                内裤男的收藏被毁得一干二净<br>
+                阿婆依然溺爱着孙子<br>
+                神医还不知道能不能治好可乐的病 <br>
+                江主任守护不了岛上的女性<br>
+                陈伯和大春花光了所有积蓄<br>
+                鸡大保最好的兄弟死于非命<br>
+                伍六七身怀绝技却做不成任务总是没钱交租，疲于奔命<br>
+                这就是生活的真意<br>
+                无论你强大还是弱小，真请还是假意，博爱还是自私<br>
+                你总会遇到一些不愿面对甚至无法承受的事情<br>
+                总会有一些不足为外人道也的辛酸过往<br>
+                但，那又如何呢？<br>
+                小鸡岛上还不是鸡飞狗跳，生机勃勃<br>
+                认清生活真相后依然热爱生活<br>
+                这就是小人物的英雄主义<br>
+                ---以上内容转载自bilibili av28448053</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="./img/刺客伍六七.jpg" data-holder-rendered="true">
+        </div>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/06/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" data-id="ck2ng0dty0001rhjc8yue3kbn" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
 
+    <hr class="featurette-divider">
 
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/11/06/hello-world/" class="article-date">
-  <time datetime="2019-11-06T15:16:41.726Z" itemprop="datePublished">2019-11-06</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/06/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
+    <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">是神亦或魔<br> <span class="text-muted">夜神月和神探L之间高智商决斗</span></h2>
+            <p class="lead">死神流克因厌倦了死神界的生活，故意将一本死亡笔记丢弃在人间。同样厌倦人间生活的高中生夜神月在拾到死亡笔记后，因试验对象死去以及遇上寻找笔记的流克而相信死亡笔记是真的，决心以笔记的力量铲除罪犯，建立一个没有犯罪的世界，并成为新世界的神。而后以“KIRA”的身份制裁罪犯，造成大量罪犯不分国籍死于心脏麻痹，成了ICPO会上议题。神秘名侦探L断言这是大量杀人事件，宣布已开始着手调查，要求ICPO协助，并在日本与警察成立调查总部。在L调查下，确定KIRA就住在关东并向其发出挑战。受到L的挑战，夜神月认为L将会成为他创造新世界路上的绊脚石，而接受其挑战并与之展开对决。</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="./img/死亡笔记.jpg" data-holder-rendered="true">
+        </div>
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/06/hello-world/" data-id="ck2ng0dtt0000rhjchyyz69fd" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
 
+    <hr class="featurette-divider">
 
-  
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">护妹达人炭治郎，逆袭之旅<br><span class="text-muted">鬼之最强无惨，终将与之一战</span></h2>
+            <p class="lead">时值日本大正时期<br>
+                传说太阳下山后，有恶鬼出没吃人。亦有猎鬼人斩杀恶鬼、保护人们。<br>
 
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li></ul>
+                卖炭少年炭治郎，他那平凡而幸福的日常生活，在家人遭到恶鬼袭击的那一天发生了剧变。母亲与四个弟妹惨遭杀害，而与他一起生还的妹妹祢豆子亦异变成凶暴的鬼。<br>
+                在猎鬼人的指引下，立志成为猎鬼人的炭治郎与变成鬼却尚存理智的祢豆子踏上了旅程。通过艰苦的剑术修行与赌命试炼，炭治郎成为了猎鬼人组织“鬼杀队”的一员。<br>
+                为了让妹妹祢豆子变回人类，为了讨伐杀害家人的恶鬼，为了斩断悲伤的连锁，少年与鬼的战斗不曾停歇。<br>
+                幸福被破坏之时，总是弥漫着鲜血的味道。纵然我身俱灭，定要将恶鬼斩杀！血风剑戟冒险谭，开幕！</p>
+        </div>
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="./img/鬼灭之刃.jpg" data-holder-rendered="true">
+        </div>
     </div>
-  </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2019/11/06/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">我的第一篇文章</a>
-          </li>
-        
-          <li>
-            <a href="/2019/11/06/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+    <!-- FOOTER -->
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>© 2016 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
 
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2019 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    </footer></div><!-- /.container -->
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="../../assets/js/vendor/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 
-<script src="/js/script.js"></script>
-
-
-
-  </div>
-</body>
-</html>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text></svg></body></html>
