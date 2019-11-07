@@ -150,11 +150,9 @@ body {
         height: auto;
         width: auto\9;
     }
-    .Carousel{
-        max-width: 80%;
-        height: 50%;
-        width: auto\9;
-        margin-bottom: 0;
+    .carousel {
+        height: auto;
+        margin-bottom: 60px;
     }
 }
 
@@ -164,7 +162,6 @@ body {
     .carousel {
         height: auto;
         margin-bottom: 60px;
-        margin: auto;
     }
     /* Since positioning the image, we need to help out the caption */
     .carousel-caption {
