@@ -160,6 +160,7 @@ body {
     /* Carousel base class */
     .carousel {
         height: auto;
+        width: 100%;
         margin-bottom: 60px;
     }
     /* Since positioning the image, we need to help out the caption */
@@ -170,7 +171,7 @@ body {
     /* Declare heights because of positioning of img element */
     .carousel .item {
         height: 250px;
-        width: 80%;
+        width: 100%;
         margin: 50px auto -50px;
         background-color: #777
     }
